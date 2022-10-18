@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ExchangeRateTable implements IExchangeRateTable {
-    public static ExchangeRateTable instance;
+    private static ExchangeRateTable instance;
     private List<Currency> currencyList = new ArrayList<>();
     private String dateOfPublication;
     private String tableNumber;

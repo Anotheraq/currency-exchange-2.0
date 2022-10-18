@@ -19,7 +19,7 @@ public class CustomXMLParser{
     private static final ExchangeRateTable exchangeRateTable = ExchangeRateTable.getInstance();
     private static final DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 
-    public static CustomXMLParser instance = null;
+    private static CustomXMLParser instance = null;
 
     private CustomXMLParser(){
 
